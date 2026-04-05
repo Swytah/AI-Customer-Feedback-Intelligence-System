@@ -2,18 +2,13 @@
 
 ## 🚀 Overview
 
-An AI-powered system that analyzes customer feedback (tweets/reviews) to detect sentiment and identify key product issues.
-The goal is to help product teams make faster, data-driven decisions.
+An AI-powered system that analyzes customer feedback to detect sentiment, identify key issues, and generate actionable insights for product decision-making.
 
 ---
 
 ## 🎯 Problem
 
-Companies receive large amounts of unstructured customer feedback but struggle to:
-
-* Understand sentiment (positive/negative tone)
-* Identify key issues from noisy data
-* Convert feedback into actionable insights
+Companies struggle to analyze large volumes of unstructured feedback and extract meaningful insights for product improvements.
 
 ---
 
@@ -21,10 +16,11 @@ Companies receive large amounts of unstructured customer feedback but struggle t
 
 This system:
 
-* Cleans and processes raw text data
-* Performs sentiment analysis using NLP
+* Cleans raw text data
+* Performs sentiment analysis using AI models
 * Extracts key issues from negative feedback
-* Displays insights using a simple dashboard
+* Displays insights via dashboard
+* Generates automated product insights
 
 ---
 
@@ -32,10 +28,35 @@ This system:
 
 ### ✅ Implemented
 
-* Data Cleaning (remove links, special characters, lowercase text)
-* Sentiment Analysis (TextBlob + HuggingFace Transformers)
-* Issue Detection (filtered keywords from negative feedback)
-* Dashboard (Streamlit charts for sentiment & issues)
+* Data Cleaning & Preprocessing
+* Sentiment Analysis (TextBlob + Transformers)
+* A/B Testing (model comparison)
+* Issue Detection (filtered keywords)
+* Dashboard (Streamlit charts)
+* AI-Generated Insights
+
+---
+
+## 🧪 A/B Testing
+
+* Model A: TextBlob
+* Model B: Transformer
+* Metric: Agreement Rate
+
+---
+
+## 📊 Dashboard
+
+* Sentiment distribution
+* Top issues visualization
+
+---
+
+## 🤖 AI Insights
+
+* Most common issue detected
+* Key problem areas
+* Percentage of negative feedback
 
 ---
 
@@ -50,67 +71,20 @@ This system:
 
 ---
 
-## 📊 Metrics (Defined)
+## 📈 Metrics
 
-* Time saved in analyzing customer feedback
-* Sentiment classification accuracy
+* Time saved in feedback analysis
+* Model agreement rate
 * Number of key issues identified
-
----
-
-## 🧪 A/B Testing (Planned)
-
-* Version A: TextBlob model
-* Version B: Transformer model
-
-Evaluation based on:
-
-* Accuracy
-* Speed
-* Quality of insights
-
-(Note: Not implemented yet)
-
----
-
-## 🧩 Feature Prioritization (RICE)
-
-| Feature            | Reach  | Impact | Confidence | Effort | Priority |
-| ------------------ | ------ | ------ | ---------- | ------ | -------- |
-| Sentiment Analysis | High   | High   | High       | Low    | High     |
-| Issue Detection    | High   | High   | Medium     | Medium | High     |
-| Dashboard          | Medium | Medium | High       | Low    | Medium   |
-| Prediction         | Low    | High   | Low        | High   | Low      |
-
----
-
-## 📌 MVP Planning (MoSCoW)
-
-Must Have:
-
-* Sentiment Analysis
-* Issue Detection
-
-Should Have:
-
-* Dashboard
-
-Could Have:
-
-* Prediction
-* Real-time data
-
-Won’t Have:
-
-* Advanced ML models (initial version)
 
 ---
 
 ## 🔍 Key Learnings
 
-* Data quality significantly impacts AI output
-* Social media data is noisy and requires filtering
+* Data quality impacts AI output
+* Social media data is noisy
 * Combining sentiment + filtering improves insights
+* Model comparison helps improve decision-making
 
 ---
 
@@ -118,7 +92,8 @@ Won’t Have:
 
 * Topic modeling (LDA / BERTopic)
 * Real-time data integration
-* Better NLP models for issue detection
-* Deployment as a scalable product
+* Improved datasets
+* Scalable deployment
+
 
 
