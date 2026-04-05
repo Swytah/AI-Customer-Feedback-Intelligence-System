@@ -42,8 +42,20 @@ This system:
 * Model A: TextBlob
 * Model B: Transformer
 * Metric: Agreement Rate
+### 🧪 Model Agreement Rate (A/B Testing Metric)
 
----
+The Model Agreement Rate measures how often two different models produce the same prediction.
+
+Formula:
+
+Model Agreement Rate = (Number of matching predictions between Model A and Model B) / (Total number of predictions)
+
+Example:
+If both models agree on 430 out of 1000 predictions:
+
+Agreement Rate = 430 / 1000 = 0.43
+
+This helps evaluate consistency between models when ground truth labels are not available.
 
 ## 📊 Dashboard
 
